@@ -1,0 +1,193 @@
+body {
+	margin: 0;
+	font-family: 'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+header{
+	background: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 72.92%);
+}
+.cabecalho {
+	position: relative;
+	height: 96px;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo img {
+	width: 220px;
+	height: 56px;
+	margin: 18px 10px;
+}
+
+.menu{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.nav-menu ul {
+	margin: 37px 10px;
+}
+
+.nav-menu ul li {
+	display: inline-block;
+}
+
+.nav-menu ul li a {
+	text-decoration: none;
+	color: #901916;
+	line-height: 20px;
+	font-weight: bold;
+	padding: 12px 20px;
+}
+
+.nav-menu ul li a:hover{
+	background: #901916;
+	border-radius: 5px;
+	color: white;
+
+}
+
+main .bg{
+	background: url(img/bg-car.png);
+	background-size: cover;
+  height: calc(100vh - 96px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.bg-texto {
+	width: 940px;
+	margin: 0 auto;
+}
+.bg-texto h2 {
+	/* padding-left: 214px; */
+	color: white;
+	font-size: 40px;
+	line-height: 48px;
+	max-width: 20ch;
+}
+
+.container-servicos-protudos {
+	display: flex;
+	width: 940px;
+	margin:0 auto;
+}
+
+.servicos-protudos{
+	background: #901916;
+}
+
+.conteudo-produtos{
+	margin-left: 8px;
+	width: 398px;
+}
+
+.conteudo-produtos h2 {
+	max-width: 15ch;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 44px;
+	color: #FFFFFF;
+	padding: 88px 0 23px 0;
+}
+
+.conteudo-produtos p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.list-servicos-nav{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin: 64px 0 0 20px;
+}
+
+.list-servicos {
+	background: linear-gradient(180deg, #EBEBEB 0%, #FFFFFF 57.48%);
+	border-radius: 5px;
+	list-style: none;
+	text-align: center;
+	width: 150px;
+	margin: 0 0 40px 20px;
+}
+
+.logo-list{
+	background: #FFFFFF;
+	border-radius: 50%;
+	width: 64.5px;
+	border: 4px solid #901916;
+	text-align: center;
+	margin: -20px auto 30px auto;
+	padding: 10px;
+}
+
+.list-servicos p {
+	font-size: 20px;
+	line-height: 20px;
+	color: #7C7C7C;
+	padding-bottom: 30px;
+}
+
+/* Sobre Unidos */
+
+.sobre-unidos{
+	background: #F8F8F8;
+}
+
+.container-sobre-unidos{
+	width:940px;
+	margin: 0 auto;
+	padding: 64px 0 0 8px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sobre-unidos h2 {
+	color: #901916;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 44px;
+	padding-bottom: 17px;
+}
+
+.container-sobre-unidos p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #7C7C7C;
+	padding-bottom: 30px;	
+}
+
+.img-sobre-unidos img{
+	width: 480px;
+	height: 430px;
+}
+
+
+@media (max-width: 575.98px) {
+
+}
+@media (max-width: 767.98px) {
+	
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
+  
