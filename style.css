@@ -8,13 +8,14 @@ h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
 	padding: 0;
 }
 
-*{
+* {
 	box-sizing: border-box;
 }
 
-header{
+header {
 	background: linear-gradient(180deg, #EEEEEE 0%, #FFFFFF 72.92%);
 }
+
 .cabecalho {
 	position: relative;
 	height: 96px;
@@ -28,7 +29,7 @@ header{
 	margin: 18px 10px;
 }
 
-.menu{
+.menu {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -50,26 +51,27 @@ header{
 	padding: 12px 20px;
 }
 
-.nav-menu ul li a:hover{
+.nav-menu ul li a:hover {
 	background: #901916;
 	border-radius: 5px;
 	color: white;
-
 }
 
-main .bg{
+main .bg {
 	background: url(img/bg-car.png);
 	background-size: cover;
-  height: calc(100vh - 96px);
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
+	height: calc(100vh - 96px);
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
 }
+
 .bg-texto {
 	width: 940px;
 	margin: 0 auto;
 }
+
 .bg-texto h2 {
 	/* padding-left: 214px; */
 	color: white;
@@ -81,14 +83,14 @@ main .bg{
 .container-servicos-protudos {
 	display: flex;
 	width: 940px;
-	margin:0 auto;
+	margin: 0 auto;
 }
 
-.servicos-protudos{
+.servicos-protudos {
 	background: #901916;
 }
 
-.conteudo-produtos{
+.conteudo-produtos {
 	margin-left: 8px;
 	width: 398px;
 }
@@ -108,7 +110,7 @@ main .bg{
 	color: #FFFFFF;
 }
 
-.list-servicos-nav{
+.list-servicos-nav {
 	display: flex;
 	justify-content: flex-start;
 	flex-wrap: wrap;
@@ -124,7 +126,7 @@ main .bg{
 	margin: 0 0 40px 20px;
 }
 
-.logo-list{
+.logo-list {
 	background: #FFFFFF;
 	border-radius: 50%;
 	width: 64.5px;
@@ -143,12 +145,12 @@ main .bg{
 
 /* Sobre Unidos */
 
-.sobre-unidos{
+.sobre-unidos {
 	background: #F8F8F8;
 }
 
-.container-sobre-unidos{
-	width:940px;
+.container-sobre-unidos {
+	width: 940px;
 	margin: 0 auto;
 	padding: 64px 0 0 8px;
 	display: flex;
@@ -167,27 +169,164 @@ main .bg{
 	font-size: 20px;
 	line-height: 28px;
 	color: #7C7C7C;
-	padding-bottom: 30px;	
+	padding-bottom: 30px;
 }
 
-.img-sobre-unidos img{
+.img-sobre-unidos img {
 	width: 480px;
 	height: 430px;
 }
 
-
-@media (max-width: 575.98px) {
-
+.container {
+	width: 900px;
 }
-@media (max-width: 767.98px) {
+
+.depoimentos {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.titulo_depoimentos {
+	display: flex;
+	justify-content: center;
+	margin: 0 0 32px 0;
+}
+
+.depoimentos .titulo_depoimentos h2 {
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 44px;
+	color: #901916;
+	margin-top: 60px;
+}
+
+.depoimentos .lista_depoimentos_ul {
+	display: flex;
+	color: #FFFFFF;
+	margin-bottom: 70px;
+}
+
+.depoimentos .lista_depoimentos_ul .teste {
+	background: #901916;
+	margin: 0 16px 0 0;
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.depoimentos .lista_depoimentos_ul .teste img {
+	width: 104px;
+	height: 104px;
+	text-align: center;
+	margin: 30px 0 10px 0;
+}
+
+.depoimentos .lista_depoimentos_ul .teste:last-child {
+	margin: 0;
+}
+
+.depoimentos .lista_depoimentos_ul .teste h3 {
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.depoimentos .lista_depoimentos_ul .teste span {
+	font-size: 14px;
+	padding-top: 6px;
+	text-align: center;
+}
+
+.depoimentos .lista_depoimentos_ul .teste p {
+	color: #FFFFFF;
+	padding: 25px;
+	text-align: center;
+}
+
+footer {
+	background-color: #901916;
+}
+
+footer section {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+footer .footer_conteudo {
+	display: flex;
+	color: #EBEBEB;
+	padding-bottom: 94px;
+	justify-content: space-between;
+}
+
+footer .footer_conteudo h3 {
+	margin: 55px 0 14px 0;
+}
+
+footer .footer_conteudo p {
+	line-height: 24px;
+}
+
+footer .footer_conteudo .localizacao iframe {
+	margin: 24px 0;
+}
+
+footer .footer_conteudo .localizacao .social_midia {
+	display: flex;
+}
+
+footer .footer_conteudo .localizacao .social_midia svg {
+	width: 24px;
+	height: 24px;
+}
+
+footer .footer_conteudo .localizacao .social_midia p {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
+	padding-left: 16px;
+	margin-top: -2px;
+}
+
+.footer .footer_conteudo .contato_fomulario form {
+	font-size: 18px;
+	line-height: 20px;
+}
+footer .footer_conteudo .contato_fomulario form input {
+	width: 368px;
+	padding: 17px;
+	margin-bottom: 10px;
 	
 }
 
-@media (max-width: 991.98px) {
-
+footer .footer_conteudo .contato_fomulario form textarea {
+	resize: none;
+	padding: 17px;
+	
 }
 
-@media (max-width: 1199.98px) {
-
+footer .footer_conteudo .contato_fomulario button {
+	margin-top: 10px;
+	background: #680300;
+	padding: 20px;
+	border: none;
 }
-  
+
+footer .footer_conteudo .contato_fomulario button a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
