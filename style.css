@@ -300,7 +300,11 @@ footer .footer_conteudo .contato_fomulario form input {
 	margin-bottom: 10px;
 	
 }
-
+.localizacao,
+.contato,
+.contato_formulario {
+	flex: 1;
+}
 footer .footer_conteudo .contato_fomulario form textarea {
 	resize: none;
 	padding: 17px;
